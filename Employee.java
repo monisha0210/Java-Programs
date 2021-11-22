@@ -1,6 +1,6 @@
 package tamilnadu.ariyalur;
 
-import tamilnadu.chennai.Office;
+import tamilnadu.chennai.Office; 
 
 public class Employee
 {
@@ -8,7 +8,7 @@ public class Employee
 	{
 	 Office e1 = new Office();
 		e1.work();
-		//e1.giveSnacks();
-		//System.out.println(e1.ta);
+		e1.giveSnacks();
+		System.out.println(e1.ta);
 	}
 }
